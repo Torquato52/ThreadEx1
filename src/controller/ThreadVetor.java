@@ -26,7 +26,7 @@ public class ThreadVetor extends Thread {
 			}
 			tempofinal = System.nanoTime();
 			tempofinal = tempofinal - tempoinicial;
-			tempofinal = tempofinal / 1.6e-5;
+			tempofinal = tempofinal / 1e+9;
 			System.out.println("O tempo para percerer é de "+tempofinal+" Segundos");
 		} else {
 			tempoinicial = System.nanoTime();
@@ -35,7 +35,7 @@ public class ThreadVetor extends Thread {
 			}
 			tempofinal = System.nanoTime();
 			tempofinal = tempofinal - tempoinicial;
-			tempofinal = tempofinal / 1.6e-5;
+			tempofinal = tempofinal / 1e+9;
 			System.out.println("O tempo para percerer é de "+tempofinal+" Segundos");
 		}
 
